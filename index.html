@@ -94,9 +94,10 @@
     mapboxgl.accessToken = pk.eyJ1IjoiY2RxMyIsImEiOiJja2gxbTh0MTgwN24zMnNtc2NuODY1anp5In0.gdPhcSgDf5SMslmmK2Q7-Q; //Mapbox token 
     var map = new mapboxgl.Map({
       container: 'map', // container id
-      style: 'mapbox://styles/mapbox/streets-v11', //stylesheet location
-      center: [-122.411464, 37.7852299], // starting position
-      zoom: 10,// starting zoom
+      style: mapbox://styles/mapbox/streets-v11
+, //stylesheet location
+      center: [-88.09747472, 42.15290055], // starting position
+      zoom: 2,// starting zoom
       transformRequest: transformRequest
     });
 
